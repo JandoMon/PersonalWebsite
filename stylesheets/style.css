@@ -1,0 +1,77 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  background-color: rgb(251, 251, 251);
+  height: 50%;
+  margin-top: 0 auto;
+}
+.title {
+  padding: 5px;
+
+  text-align: center;
+  font-family: "Cardo";
+  font-size: large;
+  font-size: bold;
+
+  margin: 2%;
+}
+.name {
+  text-decoration: underline;
+  margin-top: 3px;
+  margin-bottom: 50px;
+}
+.personalInfo {
+  width: 200px;
+  font-family: "consolas", sans-serif;
+  padding-right: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+nav {
+  clear: left;
+  background-color: grey;
+  border-style: outset;
+  border-width: 8px;
+}
+div.navBlock a {
+  display: block;
+  color: white;
+  text-align: center;
+  font-family: "consolas", sans-serif;
+  font-weight: bolder;
+  font-size: 30px;
+  padding: 16px;
+  text-decoration: none;
+}
+.navBorderLeft {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-left-width: 2px;
+  border-right-width: 1px;
+  border-color: darkgrey;
+}
+.navBorderRight {
+  border-left-style: solid;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-left-width: 1px;
+  border-color: darkgrey;
+}
+.navBlock:hover {
+  background-color: powderblue;
+}
+.navBlock:active {
+  background-color: ghostwhite;
+}
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width: 33%;
+}
